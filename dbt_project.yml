@@ -18,6 +18,8 @@ clean-targets:
 models:
   data_vault_demo:
     staging:
+      +schema: staging
       +materialized: view
     marts:
+      +schema: marts
       +materialized: table

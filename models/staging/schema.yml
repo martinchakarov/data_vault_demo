@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: hub_film
+    columns:
+      - name: hk_film_id
+        tests:
+          - unique
+          - not_null
+
