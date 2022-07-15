@@ -2,7 +2,7 @@ with raw_data as (
     select
         *
     from
-        "dvdrental"."raw_data"."category"
+        {{ source('dvdrental', 'category') }}
 ),
 
 final as (
