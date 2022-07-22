@@ -20,6 +20,9 @@ models:
     staging:
       +schema: staging
       +materialized: view
+    data_vault:
+      +schema: data_vault
+      +materialized: table
     marts:
       +schema: marts
       +materialized: table
