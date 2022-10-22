@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw_stg
+    tables:
+      - name: raw_stg_actor
+      - name: raw_stg_address
+      - name: raw_stg_category
+      - name: raw_stg_city
+      - name: raw_stg_country
+      - name: raw_stg_customer
+      - name: raw_stg_film
+      - name: raw_stg_film_actor
+      - name: raw_stg_film_category
+      - name: raw_stg_inventory
+      - name: raw_stg_language
+      - name: raw_stg_payment
+      - name: raw_stg_rental
+      - name: raw_stg_staff
+      - name: raw_stg_store
