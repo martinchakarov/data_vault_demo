@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: raw_stg_staff
+    description: ""
+    columns:
+      - name: staff_id
+        description: ""
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: address_id
+        description: ""
+
+      - name: email
+        description: ""
+
+      - name: store_id
+        description: ""
+
+      - name: active
+        description: ""
+
+      - name: username
+        description: ""
+
+      - name: password
+        description: ""
+
+      - name: last_update
+        description: ""
+
+      - name: picture
+        description: ""
+

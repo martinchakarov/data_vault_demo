@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: raw_stg_store
+    description: ""
+    columns:
+      - name: store_id
+        description: ""
+
+      - name: manager_staff_id
+        description: ""
+
+      - name: address_id
+        description: ""
+
+      - name: last_update
+        description: ""
+

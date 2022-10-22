@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: raw_stg_film_category
+    description: ""
+    columns:
+      - name: film_id
+        description: ""
+
+      - name: category_id
+        description: ""
+
+      - name: last_update
+        description: ""
+

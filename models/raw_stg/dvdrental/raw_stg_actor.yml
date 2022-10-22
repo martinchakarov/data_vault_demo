@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: raw_stg_actor
+    description: ""
+    columns:
+      - name: actor_id
+        description: ""
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: last_update
+        description: ""
+

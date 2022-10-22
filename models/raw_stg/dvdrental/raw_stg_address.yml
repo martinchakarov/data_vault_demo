@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: raw_stg_address
+    description: ""
+    columns:
+      - name: address_id
+        description: ""
+
+      - name: address
+        description: ""
+
+      - name: address2
+        description: ""
+
+      - name: district
+        description: ""
+
+      - name: city_id
+        description: ""
+
+      - name: postal_code
+        description: ""
+
+      - name: phone
+        description: ""
+
+      - name: last_update
+        description: ""
+

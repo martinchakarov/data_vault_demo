@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: raw_stg_inventory
+    description: ""
+    columns:
+      - name: inventory_id
+        description: ""
+
+      - name: film_id
+        description: ""
+
+      - name: store_id
+        description: ""
+
+      - name: last_update
+        description: ""
+

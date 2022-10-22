@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: raw_stg_country
+    description: ""
+    columns:
+      - name: country_id
+        description: ""
+
+      - name: country
+        description: ""
+
+      - name: last_update
+        description: ""
+

@@ -1,22 +1,23 @@
 
-{{ config(
-    schema='raw_stg',
-    materialized='view'
-    ) }}
+    {{ config(
+        schema='raw_stg',
+        materialized='view'
+        ) }}
 
-with raw_data as (
-    select
-        {{ dbt_utils.star(source('dvdrental', 'inventory')) }}
-    from
-        {{ source('dvdrental', 'inventory') }}
-),
+    with raw_data as (
+        select
+            {{ dbt_utils.star(source('dvdrental', 'inventory')) }}
+        from
+            {{ source('dvdrental', 'inventory') }}
+    ),
 
-final as (
-    select
-        *
-    from
-        raw_data
-)
+    final as (
+        select
+            *
+        from
+            raw_data
+    )
 
-select * from final
+    select * from final
 
+    

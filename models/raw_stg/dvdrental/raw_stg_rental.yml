@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: raw_stg_rental
+    description: ""
+    columns:
+      - name: rental_id
+        description: ""
+
+      - name: rental_date
+        description: ""
+
+      - name: inventory_id
+        description: ""
+
+      - name: customer_id
+        description: ""
+
+      - name: return_date
+        description: ""
+
+      - name: staff_id
+        description: ""
+
+      - name: last_update
+        description: ""
+

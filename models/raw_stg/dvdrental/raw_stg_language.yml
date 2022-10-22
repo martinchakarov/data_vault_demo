@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: raw_stg_language
+    description: ""
+    columns:
+      - name: language_id
+        description: ""
+
+      - name: name
+        description: ""
+
+      - name: last_update
+        description: ""
+
